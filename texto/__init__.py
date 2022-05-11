@@ -4,7 +4,7 @@ from cores import colorir
 def alinhar(texto, val):
     return f"{texto: ^{val}}"
 
-
+#usar text.center(valor da centalização)
 def titulo(texto, cor='preto', fundo='preto'):
     return colorir(f"""
 + {(len(texto) * 3) *  '-'} +
