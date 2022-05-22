@@ -1,3 +1,3 @@
 from cores import colorir
-
-print(colorir('Olá, Mundo!', 'verde'))
+from datetime import datetime
+print(f'{colorir(datetime.now(),"verde")}')
